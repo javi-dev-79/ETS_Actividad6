@@ -7,9 +7,6 @@ package figuras;
  * @author Javier Cordero Álvarez
  * @version 1.0
  */
-
-// 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
-
 public class Test {
     public static void main(String[] args) {
         Circunferencia c1 = new Circunferencia(5.5);

@@ -1,7 +1,7 @@
 package figuras;
 
 /**
- * Este proyecto se ha realizado para una actividad del módulo ETS
+ * Este proyecto se ha realizado para la actividad 6 del módulo ETS
  * del IES El Rincón
  *
  * @author Javier Cordero Álvarez

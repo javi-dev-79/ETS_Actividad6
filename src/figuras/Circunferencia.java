@@ -1,8 +1,8 @@
 package figuras;
 
 /**
- * Esta clase recoge la funcionalidad relativa a las circunferencias. Consta de un unico constructor, en el que hay que
- * inidicar el radio la hora de utilizarlo.
+ * Esta clase recoge la funcionalidad relativa a las circunferencias. Consta de un unico constructor,
+ * en el que hay que indicar el radio a la hora de utilizarlo.
  * @author Javier Cordero Álvarez
  */
 public class Circunferencia {
@@ -17,7 +17,7 @@ public class Circunferencia {
     }
 
     /**
-     * Imprime el diametro, el color y el y el area de la cirferencia, utilizando 4 decimales de PI como precision
+     * Imprime el diámetro, el color y el área de la circunferencia, utilizando 4 decimales de PI como precisión.
      */
     public void imprimir() {
         color = "rojo";
@@ -28,12 +28,12 @@ public class Circunferencia {
     }
 
     /**
-     * Este metodo permite comparar la circunferencia actual con la pasada por parametro en base al radio. Para la
-     * comparacion, se utilizan o no decimales, en base al parametro considerarDecimales
+     * Este método permite comparar la circunferencia actual con la pasada por parámetro en base al radio. Para la
+     * comparación, se utilizan o no decimales, en base al parámetro considerarDecimales.
      *
-     * @param considerarDecimales parametro para decidir si comparar con decimales o no
-     * @param otro segunda circunferencia para comparar
-     * @return boolean - verdadero si son iguales, falso en cualquier otro caso
+     * @param considerarDecimales parámetro para decidir si comparar con decimales o no.
+     * @param otro segunda circunferencia para comparar.
+     * @return boolean - verdadero si son iguales, falso en cualquier otro caso.
      */
     public boolean esIgual(boolean considerarDecimales, Circunferencia otro) {
         double radio1 = this.getRadio();

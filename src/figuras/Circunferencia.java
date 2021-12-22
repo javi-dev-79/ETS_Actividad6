@@ -1,8 +1,6 @@
 package figuras;
 
 /**
- * Se ha modificado el nombre de la clase "Círculo" a "Circunferencia",
- * y se ha movido dicha clase al paquete figuras.
  * Esta clase recoge la funcionalidad relativa a las circunferencias. Consta de un unico constructor, en el que hay que
  * inidicar el radio la hora de utilizarlo.
  * @author Javier Cordero Álvarez
@@ -12,23 +10,14 @@ public class Circunferencia {
     private String color;
 
     /**
-     * Se ha modificado el nombre del atributo "rad" por "radio".
      * @param radio = Este parámetro representa el radio de la circunferencia.
      */
     public Circunferencia(double radio) {
         this.setRadio(radio);
     }
 
-    /*
-     * La variable local "color" se ha convertido en un atributo de la clase
-     * y se ha inicializado dentro del método imprimir.
-     * Además, se ha extraído la variable "d" y se ha creado la constante "PI".
-     * Posteriormente, se han deshecho estos cambios mediante el método "inline"
-     */
-
     /**
      * Imprime el diametro, el color y el y el area de la cirferencia, utilizando 4 decimales de PI como precision
-     * @author Javier Cordero Alvarez (javier@gmail.com)
      */
     public void imprimir() {
         color = "rojo";
@@ -39,12 +28,12 @@ public class Circunferencia {
     }
 
     /**
-     * Se ha modificado el nombre del parámetro "conDecimales" a "considerarDecimales",
-     * y se ha invertido su orden.
+     * Este metodo permite comparar la circunferencia actual con la pasada por parametro en base al radio. Para la
+     * comparacion, se utilizan o no decimales, en base al parametro considerarDecimales
      *
-     * @param considerarDecimales
+     * @param considerarDecimales parametro para decidir si comparar con decimales o no
      * @param otro segunda circunferencia para comparar
-     * @return double
+     * @return boolean - verdadero si son iguales, falso en cualquier otro caso
      */
     public boolean esIgual(boolean considerarDecimales, Circunferencia otro) {
         double radio1 = this.getRadio();
@@ -62,9 +51,6 @@ public class Circunferencia {
         }
     }
 
-    /**
-     * @return double - Propiedad radio de la circunferencia
-     */
     public double getRadio() {
         return radio;
     }

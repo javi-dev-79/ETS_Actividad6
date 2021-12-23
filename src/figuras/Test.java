@@ -4,7 +4,7 @@ package figuras;
  * Este proyecto se ha realizado para la actividad 6 del módulo ETS
  * del IES El Rincón
  *
- * @author Javier Cordero Álvarez
+ * @author Javier Cordero Alvarez
  * @version 1.0
  */
 public class Test {
@@ -19,5 +19,4 @@ public class Test {
         if (c2.esIgual(true, c3))
             System.out.println("c2 y c3: iguales considerando decimales");
     }
-
 }

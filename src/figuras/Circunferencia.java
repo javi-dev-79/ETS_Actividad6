@@ -1,9 +1,9 @@
 package figuras;
 
 /**
- * Esta clase recoge la funcionalidad relativa a las circunferencias. Consta de un unico constructor,
+ * Esta clase recoge la funcionalidad relativa a las circunferencias. Consta de un único constructor,
  * en el que hay que indicar el radio a la hora de utilizarlo.
- * @author Javier Cordero Álvarez
+ * @author Javier Cordero Alvarez
  */
 public class Circunferencia {
     private double radio;
